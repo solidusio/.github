@@ -6,6 +6,11 @@
   You're encouraged to include screenshots in case of visual changes.
 
   If needed, you can reference other PRs or issues here with #ISSUE-NUMBER.
+  You can use GitHub-specific syntax, e.g.
+
+  Fixes #ISSUE-NUMBER
+
+  However, if yuou do not have merge permissions on the repo, issues won't be auto-closed.
 -->
 
 ## Checklist
