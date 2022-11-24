@@ -1,7 +1,7 @@
 blank_issues_enabled: true
 contact_links:
   - name: Feature request
-    url: https://github.com/solidusio/solidus/discussions?discussions_q=category%3AIdeas
+    url: https://github.com/solidusio/solidus/discussions/categories/new-features-or-ideas
     about: Suggest an idea for this project
   - name: Troubleshooting
     url: https://github.com/solidusio/solidus/discussions?discussions_q=category%3ATroubleshooting
