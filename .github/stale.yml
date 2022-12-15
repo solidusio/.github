@@ -8,7 +8,7 @@ daysUntilStale: 60
 daysUntilClose: 7
 
 # Label to use when marking as stale
-staleLabel: Stale
+staleLabel: stale
 
 # Limit the number of actions per hour, from 1-30. Default is 30
 limitPerRun: 30
@@ -18,7 +18,7 @@ only: pulls
 pulls:
   # Only issues or pull requests with all of these labels are check if stale. Defaults to `[]` (disabled)
   onlyLabels:
-    - Enhancement
+    - type-enhancement
 
   # Comment to post when marking a pull request as stale.
   markComment: >
