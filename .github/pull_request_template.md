@@ -22,6 +22,7 @@ The following are mandatory for all PRs:
 - [ ] I have written a thorough PR description.
 - [ ] I have kept my commits small and atomic.
 - [ ] I have used clear, explanatory commit messages.
+- [ ] I have documented new code [with YARD](https://www.rubydoc.info/gems/yard/file/docs/Tags.md).
 
 The following are not always needed (~cross them out~ if they are not):
 
