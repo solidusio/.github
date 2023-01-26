@@ -21,12 +21,12 @@ The following are mandatory for all PRs:
 
 - [ ] I have written a thorough PR description.
 - [ ] I have kept my commits small and atomic.
-- [ ] I have used clear, explanatory commit messages.
-- [ ] I have documented new code [with YARD](https://www.rubydoc.info/gems/yard/file/docs/Tags.md).
+- [ ] [I have used clear, explanatory commit messages](https://github.com/solidusio/.github/blob/main/CONTRIBUTING.md#writing-good-commit-messages).
 
-The following are not always needed (~cross them out~ if they are not):
+The following are not always needed:
 
-- [ ] I have added automated tests to cover my changes.
-- [ ] I have attached screenshots to demo visual changes.
-- [ ] I have opened a PR to update the [guides](https://github.com/solidusio/edgeguides).
-- [ ] I have updated the README to account for my changes.
+- 📖 I have updated the README to account for my changes.
+- 📑 I have documented new code [with YARD](https://www.rubydoc.info/gems/yard/file/docs/Tags.md).
+- 🛣️ I have opened a PR to update the [guides](https://github.com/solidusio/edgeguides).
+- ✅ I have added automated tests to cover my changes.
+- 📸 I have attached screenshots to demo visual changes.
