@@ -58,7 +58,8 @@ Typically, Pull Requests can be merged when they have met the following criteria
 - Passing CI
 - 2 or more Core Team approvals
 
-Though in some cases the Core Team may choose not to merge a PR that meets these requirements.
+Though in some cases the Core Team may choose not to merge a PR that meets these
+requirements.
 
 ### Pull Request guidelines
 
@@ -68,22 +69,32 @@ Though in some cases the Core Team may choose not to merge a PR that meets these
 * If you're still working on the pull-request please keep it in "Draft" mode
 * Ask for another review after addressing comments from a previous one
 
+#### Document your changes
+
+Update the documentation:
+
+- **`README.md` files**, both at the project root folder and inside sub-components
+- **opportunistically add inline YARD documentation**,
+  although methods that are part of the private API can be simply marked as `# @private`
+- **guides should be updated**, please follow the instructions in the
+  [dedicated repo](https://github.com/solidusio/edgeguides#readme)
+
+#### Writing good commit messages
+
 Here are some resources on writing good commit messages:
 
 * [Notes from Linus](https://github.com/subsurface/subsurface/commit/b6590150d68df528efd40c889ba6eea476b39873)
 * [Erlang's guide](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
 * [An often-cited post](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 
-Some things that will increase the chance that your pull request is accepted,
-taken straight from the [Ruby on Rails guide](http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html):
+#### Follow the coding conventions
 
-* Use Rails idioms and helpers
-* Include tests that fail without your code, and pass with it
-* Update the documentation, the surrounding one, examples elsewhere, guides,
-  whatever is affected by your contribution
+This is a Rails-based framework, use Rails idioms and helpers will increase
+the chance that your pull-request will be accepted.
 
-### Follow the coding conventions
+For new features and bug-fixes the included tests should fail without your
+code, and pass with it.
 
-This is a Rails-based framework.  See the [Rails coding conventions](http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions).
+See the [Rails coding conventions](http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions).
 
-And in case we didn't emphasize it enough: **we love tests!**
+And in case we didn't emphasize it enough: **we love tests!** ❤️
