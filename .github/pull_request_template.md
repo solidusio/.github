@@ -10,7 +10,7 @@
 
   Fixes #ISSUE-NUMBER
 
-  However, if yuou do not have merge permissions on the repo, issues won't be auto-closed.
+  However, if you do not have merge permissions on the repo, issues won't be auto-closed.
 -->
 
 ## Checklist

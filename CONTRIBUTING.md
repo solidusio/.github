@@ -46,7 +46,7 @@ to the latest stable branches and master branch, you will only need to submit on
 pull request.
 
 5. If a PR does not apply cleanly to all of its targeted branches - for example,
-slighty different fixes for mulitple versions -  then multiple PRs are necessary.
+slightly different fixes for multiple versions -  then multiple PRs are necessary.
 
 At this point you're waiting on us. We like to at least comment on, if not
 accept, pull requests within three business days (and, typically, one business
