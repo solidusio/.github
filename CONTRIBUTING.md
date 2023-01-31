@@ -46,7 +46,7 @@ to the latest stable branches and master branch, you will only need to submit on
 pull request.
 
 5. If a PR does not apply cleanly to all of its targeted branches - for example,
-slighty different fixes for mulitple versions -  then multiple PRs are necessary.
+slightly different fixes for multiple versions -  then multiple PRs are necessary.
 
 At this point you're waiting on us. We like to at least comment on, if not
 accept, pull requests within three business days (and, typically, one business
@@ -58,31 +58,43 @@ Typically, Pull Requests can be merged when they have met the following criteria
 - Passing CI
 - 2 or more Core Team approvals
 
-Though in some cases the Core Team may choose not to merge a PR that meets these requirements.
+Though in some cases the Core Team may choose not to merge a PR that meets these
+requirements.
 
 ### Pull Request guidelines
 
-* The specs must pass for each individual commit
-* Each individual commit should make sense by itself as far as possible
+* Aim at making the specs pass for each individual commit
+* Each individual commit should make sense by itself and optimized for review
 * Breaking up a large change into smaller (coherent) commits is encouraged
-* We do not currently have a policy about whether or not to force-push while
-people are reviewing your pull request
-* Good commit messages are also encouraged. Here are some resources on writing
-good commit messages:
-  * [Notes from Linus](https://github.com/subsurface/subsurface/commit/b6590150d68df528efd40c889ba6eea476b39873)
-  * [Erlang's guide](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
-  * [An often-cited post](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+* If you're still working on the pull-request please keep it in "Draft" mode
+* Ask for another review after addressing comments from a previous one
 
-Some things that will increase the chance that your pull request is accepted,
-taken straight from the [Ruby on Rails guide](http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html):
+#### Document your changes
 
-* Use Rails idioms and helpers
-* Include tests that fail without your code, and pass with it
-* Update the documentation, the surrounding one, examples elsewhere, guides,
-  whatever is affected by your contribution
+Update the documentation:
 
-### Follow the coding conventions
+- **`README.md` files**, both at the project root folder and inside sub-components
+- **opportunistically add inline YARD documentation**,
+  although methods that are part of the private API can be simply marked as `# @private`
+- **guides should be updated**, please follow the instructions in the
+  [dedicated repo](https://github.com/solidusio/edgeguides#readme)
 
-This is a Rails-based framework.  See the [Rails coding conventions](http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions).
+#### Writing good commit messages
 
-And in case we didn't emphasize it enough: we love tests!
+Here are some resources on writing good commit messages:
+
+* [Notes from Linus](https://github.com/subsurface/subsurface/commit/b6590150d68df528efd40c889ba6eea476b39873)
+* [Erlang's guide](https://github.com/erlang/otp/wiki/Writing-good-commit-messages)
+* [An often-cited post](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
+
+#### Follow the coding conventions
+
+This is a Rails-based framework, use Rails idioms and helpers will increase
+the chance that your pull-request will be accepted.
+
+For new features and bug-fixes the included tests should fail without your
+code, and pass with it.
+
+See the [Rails coding conventions](http://guides.rubyonrails.org/contributing_to_ruby_on_rails.html#follow-the-coding-conventions).
+
+And in case we didn't emphasize it enough: **we love tests!** ❤️
