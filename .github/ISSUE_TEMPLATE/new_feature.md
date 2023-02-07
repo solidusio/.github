@@ -1,3 +1,12 @@
+---
+name: New Feature
+about: Describe a planned feature in detail
+title: ''
+labels: enhancement
+assignees: ''
+
+---
+
 **Desired Behavior**
 
 <!--
