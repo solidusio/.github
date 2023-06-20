@@ -1,3 +1,12 @@
+---
+name: New Minor Release
+about: Create an issue for tracking a new minor release.
+title: 'Release vX.Y.Z'
+labels: enhancement
+assignees: ''
+
+---
+
 ## Releasing a new version
 
 _Requires permission to both push to the master/main branch and to rubygems._
