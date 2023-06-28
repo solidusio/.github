@@ -15,8 +15,8 @@ For more information, check out our [Release Policy](https://solidus.io/release_
 ## Detailed list of steps for the release
 
 Here are the steps to follow to release a new minor version.
-They are written in the order required to make the process work. However, some material required for the release should be prepared before starting with those steps, like the text of the
-upgrade guide or the [messages](https://github.com/solidusio/solidus/wiki/Templates-for-Release-Messages) to send to the community.
+
+They are written in the order required to make the process work. However, some material necessary for the release should be prepared before starting with those steps, like the text of the upgrade guide or the [messages](https://github.com/solidusio/solidus/wiki/Templates-for-Release-Messages) to send to the community.
 
 ### Release preparation
 
