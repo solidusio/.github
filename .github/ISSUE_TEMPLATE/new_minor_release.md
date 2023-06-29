@@ -47,11 +47,14 @@ You will be prompted to enter your 2FA code multiple times, one for each solidus
 ### After-release Chores
 
 Now that Solidus has been released, we need to cleanup the `main` branch to get ready for
-the next release. As you may have noticed, when the "Release Preparation" PR has been merged,
-a new PR has been automatically created. That PR already contains the code to get our repository
+the next release. As you may have noticed, when the "Release Preparation" PR has been merged, a new PR has been automatically created. That PR already contains the code to get our repository
 clean and ready.
 
-- [ ] Post-Release PR Merged!
+- [ ] `Post-release chores after having released Solidus vX.Y` merged.
+
+There's also another PR auto-generated, which takes care of getting the newly created branch ready to accept new contributions and ready for the next patch release. 
+
+- [ ] `Post-creation chores after new vX.Y patch branch` merged.
 
 ### Steps to do outside the main repository
 
