@@ -1,3 +1,11 @@
+---
+name: New minor release of Solidus (internal)
+about: Create a new minor release of Solidus
+title: 'Reaease vX.Y'
+labels: ''
+assignees: ''
+---
+
 # New minor release of Solidus
 
 We are committed to release every quarter in order to have a constant and predictable cadence for our deliverables.
@@ -42,7 +50,7 @@ Now that Solidus has been released, we need to cleanup the `main` branch to get 
 the next release. As you may have noticed, when the "Release Preparation" PR has been merged, a new PR has been automatically created. That PR already contains the code to get our repository
 clean and ready.
 
-There's also another PR auto-generated, which takes care of getting the newly created branch ready to accept new contributions and ready for the next patch release. 
+There's also another PR auto-generated, which takes care of getting the newly created branch ready to accept new contributions and ready for the next patch release.
 
 - [ ] Merge `Post-release chores after having released Solidus vX.Y`
 - [ ] Merge `Post-creation chores after new vX.Y patch branch`
