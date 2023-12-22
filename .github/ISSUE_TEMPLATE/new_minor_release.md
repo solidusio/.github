@@ -1,7 +1,7 @@
 ---
 name: New minor release of Solidus (internal)
 about: Create a new minor release of Solidus
-title: 'Reaease vX.Y'
+title: 'Release vX.Y'
 labels: ''
 assignees: ''
 ---
