@@ -21,8 +21,9 @@ They are written in the order required to make the process work. However, some m
 ### Release preparation
 
 - [ ] Be sure there are no pending PRs that you want to include in the next minor.
-- [ ] Run the [Prepare Release Workflow](https://github.com/solidusio/solidus/actions/workflows/prepare_release.yml), leaving `main` as the branch and the checkbox to prepare the next major unchecked (unless necessary).
-- [ ] A new auto-generated PR will appear; be sure everything looks good and merge it.
+- [ ] Run the [Prepare Release Workflow](https://github.com/solidusio/solidus/actions/workflows/prepare_release.yml), leaving `main` as the branch and the checkbox to prepare the next major unchecked (unless necessary), a new auto-generated PR will appear.
+- [ ] Make sure everything looks good in the new PR.
+- [ ] Merge it.
 
 *More details about the release workflows are described on our
 [Release pipeline automation](https://github.com/solidusio/solidus/wiki/Release-pipeline-automation) wiki page,
@@ -37,7 +38,7 @@ Open Solidus on your local machine and run:
 ```bash
 git checkout main
 git pull
-gem release
+bin/rake release
 ```
 
 You will be prompted to enter your 2FA code multiple times, one for each solidus' subgems.
