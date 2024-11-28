@@ -12,3 +12,5 @@ If you want to know more:
 - **Read our Community Guidelines**: [https://solidus.io/community-guidelines/](https://solidus.io/community-guidelines/)
 - **Read our guides**: [https://guides.solidus.io/](https://guides.solidus.io/)
 - **Join our Slack**: [http://slack.solidus.io/](http://slack.solidus.io/)
+
+Solidus comes with many great features, but some that weren't for everybody found their way into the  **Solidus Community Extensions** visiting [https://github.com/solidusio-contrib](https://github.com/solidusio-contrib).
