@@ -13,4 +13,4 @@ If you want to know more:
 - **Read our guides**: [https://guides.solidus.io/](https://guides.solidus.io/)
 - **Join our Slack**: [http://slack.solidus.io/](http://slack.solidus.io/)
 
-Solidus comes with many great features, but some that weren't for everybody found their way into the  **Solidus Community Extensions**, you can find them here [https://github.com/solidusio-contrib]!
+Solidus comes with many great features, but some that weren't for everybody found their way into the  **Solidus Community Extensions**, you can find them here (https://github.com/solidusio-contrib)[https://github.com/solidusio-contrib]!
