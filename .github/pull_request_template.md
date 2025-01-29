@@ -2,6 +2,7 @@
 
 <!--
   Please include a summary of your changes, along with any useful context.
+  Your contribution will be merged under the terms of the license of the parent repository (usually a FreeBSD License).
 
   You're encouraged to include screenshots in case of visual changes.
 
@@ -19,6 +20,7 @@ Check out our [PR guidelines](https://github.com/solidusio/.github/blob/master/C
 
 The following are mandatory for all PRs:
 
+- [ ] [I agree that my PR will be published under the same license as Solidus](https://github.com/solidusio/solidus/blob/main/LICENSE.md).
 - [ ] I have written a thorough PR description.
 - [ ] I have kept my commits small and atomic.
 - [ ] [I have used clear, explanatory commit messages](https://github.com/solidusio/.github/blob/main/CONTRIBUTING.md#writing-good-commit-messages).
