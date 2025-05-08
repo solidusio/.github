@@ -11,5 +11,6 @@ If you want to know more:
 - **Visit our website**: [https://solidus.io/](https://solidus.io/)
 - **Read our Community Guidelines**: [https://solidus.io/community-guidelines/](https://solidus.io/community-guidelines/)
 - **Read our guides**: [https://guides.solidus.io/](https://guides.solidus.io/)
-- **Join our Slack**: [http://slack.solidus.io/](http://slack.solidus.io/)
+- **Join our Slack**: [https://slack.solidus.io/](https://slack.solidus.io/)
 - **Extend your store with community maintained extensions**: [https://github.com/solidusio-contrib/](https://github.com/solidusio-contrib/)
+- **Public Roadmap**: [https://github.com/orgs/solidusio/projects/7](https://github.com/orgs/solidusio/projects/7)
