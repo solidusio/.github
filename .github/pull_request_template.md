@@ -23,6 +23,7 @@ The following are mandatory for all PRs:
 - [ ] [I agree that my PR will be published under the same license as Solidus](https://github.com/solidusio/solidus/blob/main/LICENSE.md).
 - [ ] I have written a thorough PR description.
 - [ ] I have kept my commits small and atomic.
+- [ ] I have localized any and all user-facing strings that I added to the source code.
 - [ ] [I have used clear, explanatory commit messages](https://github.com/solidusio/.github/blob/main/CONTRIBUTING.md#writing-good-commit-messages).
 
 The following are not always needed:
