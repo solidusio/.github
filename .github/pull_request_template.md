@@ -16,7 +16,7 @@
 
 ## Checklist
 
-Check out our [PR guidelines](https://github.com/solidusio/.github/blob/master/CONTRIBUTING.md#pull-request-guidelines) for more details.
+Check out our [PR guidelines](https://github.com/solidusio/.github/blob/main/CONTRIBUTING.md#pull-request-guidelines) for more details.
 
 The following are mandatory for all PRs:
 
